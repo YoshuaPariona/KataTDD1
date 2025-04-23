@@ -1,0 +1,37 @@
+# Sistema operativo Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.cab
+*.msi
+*.msm
+*.msp
+
+# PyCharm
+.idea/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+venv.bak/
+*.env/
+
+# Archivos de configuración de PyCharm
+*.iml
+.idea/
+
+# Archivos de logs y otros
+*.log
+
+# Archivos temporales
+*.bak
+*.swp
+*.swo
