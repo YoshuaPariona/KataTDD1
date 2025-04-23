@@ -1,11 +1,12 @@
 import unittest
 
-
+from src.logica.Conjunto import Conjunto
 
 class TestConjunto(unittest.TestCase):
-    def test_something(self):
-        pass
+    def test_conjunto_vacio_retornaNone(self):
+        conjunto = Conjunto([])
+        self.assertIsNone(conjunto.promedio())
 
+    def promedio(self):
+        return False
 
-if __name__ == '__main__':
-    unittest.main()
